@@ -1,3 +1,5 @@
+[![Deploy static content to Pages](https://github.com/nodoubtz/nvm-nodoubtz-/actions/workflows/static.yml/badge.svg)](https://github.com/nodoubtz/nvm-nodoubtz-/actions/workflows/static.yml)
+
 # Node Version Manager (NVM)
 
 Node Version Manager (NVM) is a POSIX-compliant bash script to manage multiple active node.js versions.
