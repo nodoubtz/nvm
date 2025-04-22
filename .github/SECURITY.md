@@ -1,27 +1,52 @@
-# Security
+# Security Policy
 
-Please email [@ljharb](https://github.com/ljharb) or see https://tidelift.com/security if you have a potential security vulnerability to report.
+## Reporting a Vulnerability
 
-## OpenSSF CII Best Practices
+If you discover a potential security vulnerability in this project:
 
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/684/badge)](https://bestpractices.coreinfrastructure.org/projects/684)
+1. **Contact**: Please email [@ljharb](https://github.com/ljharb) or visit [Tidelift Security](https://tidelift.com/security) to report any issues.
+2. **Confidentiality**: We kindly ask that you refrain from publicly disclosing the issue until we have had a chance to address it.
+3. **Acknowledgment**: We appreciate your efforts and will acknowledge your contribution in the release notes if desired.
 
-There are three “tiers”: passing, silver, and gold.
+## Supported Versions
 
-### Passing
-We meet 100% of the “passing” criteria.
+The following versions of the project are currently supported for security updates:
 
-### Silver
-We meet 95% of the “silver” criteria. The gaps are as follows:
-  - we do not have a DCO or a CLA process for contributions.
-  - because we only have one maintainer, the project has no way to continue if that maintainer stops being active.
-  - we do not currently document “what the user can and cannot expect in terms of security” for our project. This is planned to be completed in 2023.
+| Version | Supported          |
+|---------|--------------------|
+| Latest  | :white_check_mark: |
+| Older   | :x:                |
 
-### Gold
-We meet 65% of the “gold” criteria. The gaps are as follows:
-  - we do not yet have the “silver” badge; see all the gaps above.
-  - We do not include a copyright or license statement in each source file. Efforts are underway to change this archaic practice into a suggestion instead of a hard requirement.
+## Security Practices and Standards
 
-## Threat Model
+### OpenSSF CII Best Practices
 
-See [THREAT_MODEL.md](./THREAT_MODEL.md).
+We are committed to meeting the best practices for open-source security as outlined by the [OpenSSF CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/684).
+
+- **Passing Tier**: 100% compliance
+- **Silver Tier**: 95% compliance. Gaps include:
+  - No DCO or CLA process for contributions.
+  - Single maintainer risk for project continuity.
+  - Missing documentation on "what the user can and cannot expect in terms of security."
+- **Gold Tier**: 65% compliance. Gaps include:
+  - Pending "silver" badge.
+  - Missing copyright or license statement in each source file.
+
+### Threat Model
+
+For an in-depth understanding of our threat model, please refer to [THREAT_MODEL.md](./THREAT_MODEL.md).
+
+## Security Goals
+
+1. Ensure that all reported vulnerabilities are addressed in a timely manner.
+2. Maintain transparency about the security status and practices of the project.
+3. Regularly update dependencies to include the latest security patches.
+
+## Vulnerability Disclosure Timeline
+
+We aim to respond to reported vulnerabilities within the following timelines:
+
+- **Initial Response**: Within 2 business days.
+- **Patch or Mitigation Release**: Within 7-14 business days, depending on severity.
+
+Your efforts to responsibly disclose vulnerabilities are greatly appreciated and contribute to the health and security of the project.
