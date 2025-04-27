@@ -1,0 +1,2 @@
+nvm install --reinstall-packages-from=5 6
+nvm install --reinstall-packages-from=iojs v4.2
